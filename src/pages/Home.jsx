@@ -11,6 +11,9 @@ export default function Home() {
       <Navbar />
       <main className="relative pt-16">
         <Hero />
+        <Showcase />
+        <Highlights />
+        {/* About section moved just above the footer */}
         <section className="py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-2xl sm:text-3xl font-orbitron text-[#0D0E1A] mb-8">About Us</h2>
@@ -53,8 +56,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <Showcase />
-        <Highlights />
       </main>
       <Footer />
     </div>
