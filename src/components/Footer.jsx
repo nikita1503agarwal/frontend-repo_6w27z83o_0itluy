@@ -13,7 +13,7 @@ export default function Footer() {
             <ul className="mt-2 space-y-2 text-sm text-[#0D0E1A]/75">
               <li>Twitter / X</li>
               <li>YouTube</li>
-              <li>TikTok</li>
+              <li>Instagram</li>
             </ul>
           </div>
           <div>
