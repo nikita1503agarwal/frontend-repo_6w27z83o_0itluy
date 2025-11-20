@@ -27,6 +27,24 @@ export default function Hero() {
               Join Us
             </Link>
           </div>
+
+          {/* Stats row under the buttons */}
+          <div className="mt-8">
+            <div className="inline-flex w-full sm:w-auto items-stretch divide-x divide-white/60 rounded-2xl bg-white/70 border border-white/60 backdrop-blur shadow-[0_20px_60px_rgba(13,14,26,0.08)]">
+              <div className="px-5 py-4">
+                <div className="text-xs uppercase tracking-wide text-[#0D0E1A]/60">Talents</div>
+                <div className="mt-1 text-2xl font-orbitron text-[#0D0E1A]">12</div>
+              </div>
+              <div className="px-5 py-4">
+                <div className="text-xs uppercase tracking-wide text-[#0D0E1A]/60">Total Followers</div>
+                <div className="mt-1 text-2xl font-orbitron text-[#0D0E1A]">1.2M+</div>
+              </div>
+              <div className="px-5 py-4 flex items-center gap-2">
+                <span className="inline-flex h-2.5 w-2.5 rounded-full bg-[#34D399] shadow-[0_0_0_4px_rgba(52,211,153,0.3)]" aria-hidden="true" />
+                <div className="text-sm font-semibold text-[#0D0E1A]">Stream 24/7</div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
